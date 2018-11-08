@@ -1,0 +1,1 @@
+curl -v -F"file=@cat.jpg" --output resize.jpg https://us-central1-jrm-gcpgofunctionsdemo.cloudfunctions.net/resize

@@ -1,1 +1,1 @@
-module github.com/justinrmiller/helloworld
+module github.com/justinrmiller/function

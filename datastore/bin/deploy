@@ -1,0 +1,9 @@
+#!/bin/bash
+
+gcloud alpha functions deploy datastore \
+  --entry-point F \
+  --memory 128MB \
+  --region us-central1 \
+  --runtime go111 \
+  --trigger-event google.pubsub.topic.publish \
+  --trigger-resource articles

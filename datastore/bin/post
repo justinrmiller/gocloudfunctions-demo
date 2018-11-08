@@ -1,0 +1,4 @@
+curl -v --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"message": "Hi There!\n"}' \
+  https://us-central1-jrm-gcpgofunctionsdemo.cloudfunctions.net/helloworld

@@ -1,0 +1,2 @@
+curl -F"file=@$1" https://us-central1-jrm-gcpgofunctionsdemo.cloudfunctions.net/text
+echo ""
